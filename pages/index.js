@@ -1,3 +1,4 @@
+import Head from "next/head";
 import styles from "../styles/FrontPage.module.css";
 import Image from 'next/image';
 import Livro from '../public/livro.png';
@@ -8,6 +9,9 @@ import EstrelaVazia from "../public/estrela_vazia.svg";
 export default function frontPage() {
    return(
        <div className={styles.main}>
+           <Head>
+                <title>Solar21</title>
+            </Head>
            <div className={styles.frontContent}>
                <div className={styles.img}>
                    <Image src={Livro} alt="livro"></Image>
@@ -18,7 +22,6 @@ export default function frontPage() {
                </div>
 
                <div className={styles.stars}>
-
                </div>
            </div>
 

@@ -9,6 +9,7 @@
     "@next/font": "^13.1.6",
     "next": "latest",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-stars": "^2.2.5"
   }
 }
