@@ -27,7 +27,7 @@ export default function frontPage() {
    return(
        <div className={styles.main} onClick={()=> setRating(-1)}>
            <Head>
-                <title>Solar21</title>
+                <title>Tutor Mundi</title>
             </Head>
            <div className={styles.frontContent}>
                <div className={styles.img}>
