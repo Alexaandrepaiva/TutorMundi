@@ -45,7 +45,7 @@
 }
 
 .pular{
-    font-family: 'Work Sans';
+    font-family: 'WorkSans';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -59,7 +59,7 @@
 .confirmar {
     padding-right: 25px;
     padding-left: 25px;
-    font-family: 'Work Sans';
+    font-family: 'WorkSans';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -74,6 +74,55 @@
     cursor: pointer;
 }
 
-@media (min-width: 768px) {
-    
+.confirmarActive{
+    padding-right: 25px;
+    padding-left: 25px;
+    font-family: 'WorkSans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    background: #2CC6D0;
+    box-shadow: -4px 12px 25px -10px #2EAFB9;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.star {
+    transition: all 0.3s ease-in-out;
+}
+.starCheio {
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+}
+.deactivated {
+    opacity:1;
+}
+.active {
+    opacity:0;
+}
+
+@media (max-width: 768px) {
+    .main{
+        position:relative;
+    }
+    .frontContent{
+        width: 100%;
+        height: 100%;
+    }
+    .buttons{
+        width: 100%;
+        padding-right: 24px;
+        position: absolute;
+        bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: end;
+        gap: 35px;
+        font-family: 'WorkSans-SemiBold', 'Londlia-Light', 'Cookie',
+    }
 }
