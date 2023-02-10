@@ -24,4 +24,4 @@ Fidelidade ao layout/comportamento do protótipo e organização do código.
 
 A solução proposta foi feita Next.js. <br><br>
 
-Para rodar, basta instalar `node modules, clonar o repositório para a sua máquina, inserir o comando `npm run dev` e abrir a porta indicada do localhost no seu navegador.
+Para rodar, basta instalar `node modules`, clonar o repositório para a sua máquina, inserir o comando `npm run dev` e abrir a porta indicada do localhost no seu navegador.
