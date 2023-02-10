@@ -22,6 +22,11 @@ export default function frontPage() {
                </div>
 
                <div className={styles.stars}>
+                    <Image src={EstrelaVazia} alt="estrela-vazia"></Image>
+                    <Image src={EstrelaVazia} alt="estrela-vazia"></Image>
+                    <Image src={EstrelaVazia} alt="estrela-vazia"></Image>
+                    <Image src={EstrelaVazia} alt="estrela-vazia"></Image>
+                    <Image src={EstrelaVazia} alt="estrela-vazia"></Image>
                </div>
            </div>
 
