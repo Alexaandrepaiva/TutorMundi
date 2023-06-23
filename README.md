@@ -1,27 +1,20 @@
-# Desafio Tutor Mundi
+# Tutor Mundi Challenge
 
-Programar pequeno layout responsivo baseado no link abaixo. Use GitHub e a(s) ferramenta(s) Front End da sua preferência.
+## About
+As one of the challenges of the internship selection process, I was asked to program a one-page website that was faithful to the [Figma](https://www.figma.com/file/K2DpzKQ9IvPCK1joIYw4Bd/Developer-test?node-id=303%3A189) provided. The choice of programming languages and framework was free and I chose to develop it using Next.js.
 
-## Referência 
+## Behavior 
+When clicking on any of the stars, it and the stars on the left side of it are filled and the stars on the right side are or remain empty. (For example, if the user clicks on the third star, the first 3 stars are filled and the last 2 are empty.) The "confirm" button is also enabled. In the Figma prototype it is possible to see the simulation of this behavior.
 
-Para o design, veja o [Figma](https://www.figma.com/file/K2DpzKQ9IvPCK1joIYw4Bd/Developer-test?node-id=303%3A189). <br>
+## Evaluation
+Fidelity to the layout/behavior of the prototype and code organization will be evaluated.
 
-O Figma é um software de prototipação de interfaces. Nele você conseguirá ver em detalhes o fluxo a ser programado, tanto na versão mobile quanto desktop. <br><br>
-⁣
-⁣Um protótipo é um entregável que simula o funcionamento real do software. Ele ajuda desenvolvedores a entender e documentar a funcionalidade a ser construída. <br><br>
-⁣
-⁣Para interagir com o protótipo, clique no botão "play" no canto superior direito. Uma nova tela será aberta, no centro dela está o protótipo. Clique nos seus botões para entender o comportamento esperado. 
+## Preview 
+![image](https://github.com/Alexaandrepaiva/TutorMundi/assets/101399070/a04d9e35-922a-41da-841a-cc2a8584c5bc)
 
-## Comportamento 
-
-Ao clicar em qualquer das estrelas, ela e as estrelas ao lado esquerdo dela ficam preenchidas e as estrelas ao lado direito ficam ou continuam vazias. (Por exemplo, se o usuário clicar na terceira estrela, as primeiras 3 estrelas ficam preenchidas e as últimas 2, vazias.) O botão "confirmar" também fica habilitado. No protótipo do Figma é possível ver a simulação deste comportamento.
-
-## O que será avaliado 
-
-Fidelidade ao layout/comportamento do protótipo e organização do código.
-
-## Solução 
-
-A solução proposta foi feita Next.js. <br><br>
-
-Para rodar, basta instalar `node modules`, clonar o repositório para a sua máquina, inserir o comando `npm run dev` e abrir a porta indicada do localhost no seu navegador.
+## Instructions
+To run it, follow the following steps:
+1. Install `node modules`;
+2. Clone the repository to your machine. You may do so with the command `git clone https://github.com/Alexaandrepaiva/TutorMundi`;
+3. Run the command `npm run dev`;
+4. In the browser of your preference, open the indicated localhost port in your browser. It may be, for example, `localhost:3000`
