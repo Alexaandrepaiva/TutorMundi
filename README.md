@@ -18,3 +18,6 @@ To run it, follow the following steps:
 2. Clone the repository to your machine. You may do so with the command `git clone https://github.com/Alexaandrepaiva/TutorMundi`;
 3. Run the command `npm run dev`;
 4. In the browser of your preference, open the indicated localhost port in your browser. It may be, for example, `localhost:3000`
+
+## Deployment
+As an alternative option, you may check the solution at this [link](https://alexaandrepaiva.github.io/TutorMundi/)
